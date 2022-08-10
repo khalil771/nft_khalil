@@ -1,0 +1,120 @@
+body{
+    background: #0d1a2d;
+}
+.centre1{
+    background: #16263f;
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.image1{
+    background-image: url("../../../images/image-equilibrium.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10%;
+    
+}
+.texte1{
+    text-align: start;
+    margin-left: 20px;
+}
+h3{
+    color:white;
+}
+h3:hover{
+    color: #2bd1d2;
+    cursor: pointer;
+}
+.gris{
+    color: #8095b4;
+}
+.parties2{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 20px;
+}
+.un{
+    display: flex ;
+    flex-direction: row;
+    width: 40%;
+    
+}
+.un p{
+    color: #2bd1d2;
+    font-size: bolder;
+}
+.un svg{
+    margin: auto;
+}
+.deux{
+    margin-left: 20%;
+    display: flex ;
+    flex-direction: row;
+    width: 40%;
+}
+.deux svg{
+    margin: auto;
+}
+.deux p{
+    color: #8095b4;
+}
+.ligne{
+    width: 90%;
+    border-color: #8095b4;
+}
+.imageavecnom{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+.imagetete{
+    background-image: url("/images/image-avatar.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+.textefin{
+    margin-top: 10px;
+    color: #8095b4;
+}
+.textefin span{
+    color: white;
+}
+.textefin:hover span{
+    color: #2bd1d2;
+    cursor: pointer;
+}
+.transformation{
+    width: 100%;
+    height: 100%;
+    background-color: #2bd1d2;
+    opacity: 0;
+    border-radius: 10%;
+}
+.image1:hover .transformation{
+    opacity: 0.5;
+}
+
+.image1 svg{
+    display: none;
+}
+.image1:hover svg{
+    position: absolute;
+    top: 250px;
+    display: block;
+    margin-left: 130px;
+    
+}
+
